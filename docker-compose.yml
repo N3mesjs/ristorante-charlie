@@ -14,7 +14,7 @@ services:
       - ./mysql-data:/var/lib/mysql
   
   wordpress:
-    image: wordpress
+    image: wordpress:latest
     ports:
       - 8080:80
     environment:
