@@ -23,4 +23,4 @@ services:
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
     volumes:
-      - ./wordpress-data:/var/www/html
+      - ./wordpress-data:/var/www/html/
