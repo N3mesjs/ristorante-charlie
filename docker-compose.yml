@@ -1,7 +1,7 @@
 services:
   mysql:
     image: mysql:9.5.0
-    command: --lower_case_table_names=2
+    command: --lower_case_table_names=1
     ports: 
       - 3306:3306
     environment:
