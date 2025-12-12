@@ -134,6 +134,7 @@ define('FS_METHOD', 'direct');
 @ini_set( 'upload_max_filesize' , '64M' );
 @ini_set( 'post_max_size', '64M');
 @ini_set( 'memory_limit', '256M' );
+define( 'WP_SITEURL', 'http://localhost:8080' );
 
 /* That's all, stop editing! Happy publishing. */
 
