@@ -23,5 +23,6 @@ services:
       WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+    restart: unless-stopped
     volumes:
       - ./wordpress-data:/var/www/html/
